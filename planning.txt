@@ -1,0 +1,40 @@
+Voting Application
+
+A functionality where user/voters can give the vote to given set of electors/candidates
+
+voting app functionality -
+
+1. user sign up/sigin in
+2. see the list of candidates
+3. vote only one candidate by an user,after voting user can not vote again
+4. candidate live vote count
+5. user data must contain one unique gov. id proof:aadhar card number
+6. there should be admin who maintain the list of candidates
+7. user can change their password
+8. user can login with their aadhar and password
+9. admin can not vote at all
+
+____________________________________________________________________________________
+Routes - 
+
+user authentication -
+/signup  -  new user account
+/login   - login
+
+voting -
+/candidate - get list of candidate
+vote/:candidateId - vote for specific candidate
+
+vote count-
+/vote/count - 
+
+user profile -
+/profile - user profile info
+/profile/password - change user password
+
+admin candidate management -
+/candidate - creste new candidate
+/candidates/:candidateId - update an existing candidate
+/candidates/:candidateId - delete a candidate from list
+
+
